@@ -3,21 +3,43 @@
 		<title>AANNET GITHUB PAGE</title>
 		<link href="https://fonts.googleapis.com/css?family=Muli|Roboto&display=swap" rel="stylesheet">
 		<style>
+			html, html * {
+				font-family: 'Muli', sans-serif;
+			}
+
+			.hero {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#606c88+0,3f4c6b+100;Grey+3D+%232 */
+				background: #606c88; /* Old browsers */
+				background: -moz-linear-gradient(top,  #606c88 0%, #3f4c6b 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #606c88 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+			}
+
+			.demo {
+
+			}
 		</style>
 
 	</head>
 	<body>
-		<h1>Welcome to my account</h1>
+		
+		<div class="hero">
+			<h1>Welcome to my account</h1>
+		</div>
 
-		 <h2>MATRIX PIXIE JS DEMO</h2>
+		<div class="demo">
+			<h2>MATRIX PIXIE JS DEMO</h2>
 
-		<div >
+			<div >
 
 			<button id="btnCreate">CREATE</button>
 			<button id="btnAnimate">ANIMATE</button>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.1/pixi.min.js"></script>
 			<script src="app/matrix/app-include.js"></script>
 			<script src="app/matrix/app.js"></script>
-	</div>
+			</div>
+		</div>
 	</body>
 </html>
